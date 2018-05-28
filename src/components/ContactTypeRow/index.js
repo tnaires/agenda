@@ -2,7 +2,7 @@ import React from 'react';
 
 const ContactTypeRow = props => {
   return (
-    <tr key={props.contactType.id}>
+    <tr>
       <td>{props.contactType.description}</td>
     </tr>
   );

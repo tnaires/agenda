@@ -5,7 +5,7 @@ import ContactTypeRow from '../ContactTypeRow';
 
 const ContactTypeTable = props => {
   const rows = props.contactTypes.map(contactType => (
-    <ContactTypeRow contactType={contactType} />
+    <ContactTypeRow key={contactType.id} contactType={contactType} />
   ));
 
   return (
