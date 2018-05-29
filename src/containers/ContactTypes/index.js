@@ -8,7 +8,7 @@ const mapStateToProps = state => ({
 });
 
 const mapDispatchToProps = dispatch => ({
-  addContactType: contactType => dispatch(addContactType(contactType))
+  addContactType: description => dispatch(addContactType(description))
 });
 
 export default connect(
